@@ -8,9 +8,9 @@ import org.junit.Test;
 * We start with a conditionally initialized arraylist, then we don't satisfy that condition
 */
 public class NullPoint {
-  public static Arraylist initializer(int a) {
+  public static Arraylist initializer(int b) {
     ArrayList list;
-    if(a == 0){
+    if(b == 0){
       list = new ArrayList<>();
     else{
       list = null;
