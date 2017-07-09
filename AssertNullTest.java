@@ -14,7 +14,7 @@ public class AssertNulTest {
   
   @Test
   public void test() {
-    ArrayList b = NullPoint.initializer(0);
-    assertNull(b);
+    ArrayList a = NullPoint.initializer(0);
+    assertNull(a);
   }
 }
