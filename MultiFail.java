@@ -29,8 +29,8 @@ public class MultiFail {
   }
     @Test
     public void test4() {
-      ArrayList b = NullPoint.initializer(0);
-      assertNull(b);
+      ArrayList a = NullPoint.initializer(0);
+      assertNull(a);
   }
     @Test (timeout = 500)
     public void test1() {
